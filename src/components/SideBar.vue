@@ -62,11 +62,17 @@
           <i class="bi bi-people-fill me-3 nav-icon"></i> specializations
         </router-link>
       </li>
+
       <li>
-        <router-link to="/delivery" class="nav-link" active-class="active">
-          <i class="bi bi-truck-flatbed me-3 nav-icon"></i> Deliveries
+        <!-- UPDATED: Now links to /members index page -->
+      </li>
+
+      <li>
+        <router-link to="/payment" class="nav-link" active-class="active">
+          <i class="bi bi-credit-card-2-front me-3 nav-icon"></i> Payments
         </router-link>
       </li>
+
       <li>
         <router-link to="/notifications" class="nav-link" active-class="active">
           <i class="bi bi-bell-fill me-3 nav-icon"></i> Alerts

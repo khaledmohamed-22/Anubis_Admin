@@ -20,25 +20,7 @@
         <figcaption class="image-caption">Create a Plan</figcaption>
       </figure>
 
-      <!-- Edit Plan -->
-      <figure class="gallery-item">
-        <router-link to="/editplan/1" class="gallery-link">
-          <div class="image-wrapper">
-            <img
-              src="../assets/image 3.jpg"
-              alt="Person editing a plan on a tablet"
-              class="image"
-            />
-            <div class="overlay">
-              <span>Edit Plan</span>
-            </div>
-          </div>
-        </router-link>
-
-        <figcaption class="image-caption">Edit Plan</figcaption>
-      </figure>
-
-      <!-- Show Plans -->
+      <!-- Show Plans (Now includes Edit functionality) -->
       <figure class="gallery-item">
         <router-link to="/showplans" class="gallery-link">
           <div class="image-wrapper">
@@ -57,15 +39,13 @@
     </div>
   </div>
 </template>
+
 <script>
 export default {
-  methods: {
-    editPlan(planId) {
-      this.$router.push({ name: "EditPlanPage", params: { planId } });
-    },
-  },
+  name: "SubscriptionPage",
 };
 </script>
+
 <style scoped>
 /* --- Container Styling --- */
 .plans-container {

@@ -16,6 +16,7 @@ import EquipmentInventory from "@/views/EquipmentInventory.vue";
 import AlertsPage from "@/views/AlertsPage.vue";
 import CoachesList from "@/views/CoachesList.vue";
 import SpecializationsPage from "@/views/SpecializationsPage.vue";
+import PaymentMethods from "@/views/PaymentMethods.vue";
 
 const routes = [
   {
@@ -30,6 +31,13 @@ const routes = [
     component: LoginPage,
     meta: { hideSidebar: true }, // Hides admin sidebar
   },
+
+  {
+    path: "/payment",
+    name: "Payment",
+    component: PaymentMethods,
+  },
+
   {
     path: "/home", // This is the admin dashboard
     name: "home",

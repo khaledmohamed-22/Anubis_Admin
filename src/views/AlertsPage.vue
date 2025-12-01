@@ -186,7 +186,6 @@ const getBadgeClass = (type) => {
 }
 .custom-input:focus {
   background: rgba(255, 255, 255, 0.2);
-  outline: none;
   color: white;
 }
 

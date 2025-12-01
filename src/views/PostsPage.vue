@@ -251,7 +251,8 @@ onMounted(() => {
   -webkit-text-fill-color: transparent;
 }
 .btn-gradient {
-  background: linear-gradient(90deg, #ff0000, #8b0000);
+  background: linear-gradient(90deg, #ff6a00, #ee0979);
+
   color: #fff;
   border: none;
   transition: 0.3s ease;
